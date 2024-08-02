@@ -1,0 +1,36 @@
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: #3386bd;
+  font-family: 'Times New Roman';
+  font-size: x-large;
+}
+.logo-sub {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: #a2a867;
+  font-family: 'Times New Roman';
+  font-size: x-large;
+}
+
+.navbar {
+  max-width: var(--max-width);
+  position: relative;
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  height: 80px;
+
+}
+
