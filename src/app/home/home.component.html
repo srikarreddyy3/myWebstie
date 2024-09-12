@@ -1,1 +1,20 @@
-<p>home works!</p>
+<section class="home">
+  <div class="home-content">
+    <h3>Hello, It's Me</h3>
+    <h1>Vijay Poloju</h1>
+    <h3>And I'm a <span #typedElement  class="text"></span></h3>
+    <p>I'm a web Designer with extensive with extensive experience for over 3 years,
+      <br>expertise is to create and website design, Frontend design , and many more...
+    <div class="home-sci">
+      <div>
+        <a *ngFor="let link of socialMediaLinks; let i= index" [href]="link.url" target="_blank" [style.--i]="i + 1">
+          <i class="bi" [ngClass]="link.icon"></i>
+        </a>
+      </div>
+    </div>
+      <a href="#" class ="btn-box">More About Me</a>
+
+
+
+  </div>
+</section>

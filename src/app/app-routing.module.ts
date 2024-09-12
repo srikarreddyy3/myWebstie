@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'not-found', component: NotFoundComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/not-found', pathMatch: 'full' }
+  { path: '**', redirectTo: '/home' }
 ];
 
 @NgModule({
