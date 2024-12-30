@@ -8,7 +8,7 @@
   background-position: center;
   display: flex;
   align-items: center;
-  padding: 70px 10% 0;
+  padding: 70px 10%;
   color: #ededed;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .home-content h3 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   opacity: 0;
   animation: slideBottom 1s ease forwards;
@@ -39,8 +39,8 @@
 }
 
 .home-content h1 {
-  font-size: 56px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 650;
   margin: -3px 0;
   opacity: 0;
   animation: slideRight 1s ease forwards;
@@ -48,7 +48,7 @@
 }
 
 .home-content p {
-  font-size: 20px;
+  font-size: 16px;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
@@ -71,7 +71,6 @@
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(.2s*var(--i));
-
 }
 
 
