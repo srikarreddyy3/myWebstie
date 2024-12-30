@@ -13,10 +13,10 @@ export class HomeComponent {
   typed!: Typed;
 
   socialMediaLinks = [
-    { icon: 'bi-facebook', url: 'https://www.facebook.com' },
-    { icon: 'bi-instagram', url: 'https://www.instagram.com' },
-    { icon: 'bi-whatsapp', url: 'https://www.whatsapp.com' },
-    { icon: 'bi-linkedin', url: 'https://www.linkedin.com' }
+    { icon: 'bi-facebook', url: 'https://www.facebook.com/vector.vijay/' },
+    { icon: 'bi-instagram', url: 'https://www.instagram.com/mrvijay.poloju/' },
+    { icon: 'bi-whatsapp', url: 'https://wa.link/tosa3f' },
+    { icon: 'bi-linkedin', url: 'https://www.linkedin.com/in/mrvijay-poloju/' }
   ];
   constructor(private titleService: Title) {
     this.titleService.setTitle('Vijay - Home')
@@ -35,7 +35,6 @@ export class HomeComponent {
   }
 
   ngOnDestroy(): void {
-    // Destroy the Typed instance to prevent memory leaks
     this.typed.destroy();
   }
 }
