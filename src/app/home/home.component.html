@@ -1,4 +1,5 @@
 <section class="home">
+
   <div class="home-content">
     <h3>Hello, It's Me</h3>
     <h1>Vijay Poloju</h1>
@@ -8,6 +9,7 @@
       <br>Skilled in  Java, Spring Boot, Node.js, Angular, Python, PostgreSQL, and AWS.
       <br>Passionate about solving complex problems and building innovative solutions.
     </p>
+
     <div class="home-sci">
       <div>
         <a *ngFor="let link of socialMediaLinks; let i= index" [href]="link.url" target="_blank" [style.--i]="i + 1">
@@ -16,5 +18,9 @@
       </div>
     </div>
     <a routerLink="/about" class="btn-box">More About Me</a>
+
+  </div>
+  <div class="profile-photo-component">
+    <img src="../../assets/resources/resources/boulderSnowImage.jpg" alt="Profile Photo">
   </div>
 </section>

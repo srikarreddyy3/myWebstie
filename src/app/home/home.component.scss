@@ -3,8 +3,11 @@
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background: url(../../assets/resources/resources/backgroup-paper.png);
+  // background: url(../../assets/resources/resources/backgroup-paper.png);
+  background: radial-gradient(circle, #1f3a5b, #091727);
+  // background-color: #243447;
   background-size: cover;
+
   background-position: center;
   display: flex;
   align-items: center;
@@ -73,6 +76,30 @@
   animation-delay: calc(.2s*var(--i));
 }
 
+.profile-photo-component {
+  position: relative;
+  // top: 130px;
+  // right: 100px;
+  // width: 200x; /* Adjust size as needed */
+  // height: 450px; /* Adjust size as needed */
+  // width: 30vw; /* 20% of the viewport width */
+  // height: 30vw; /* Maintain square aspect ratio */
+  width: auto; /* Width adjusts based on aspect ratio */
+  height: 30vw;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 
+.profile-photo-component img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+@media only screen and (max-width: 600px) {
+  .profile-photo-component {
+    display: none;
+  }
+}
